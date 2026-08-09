@@ -425,6 +425,9 @@ body{
 }
 
 .claim-btn{
+  border:none;
+  cursor:pointer;
+  font-family:Arial,Helvetica,sans-serif;
   display:block;
   width:100%;
 
@@ -528,6 +531,15 @@ body{
 
 }
 </style>
+<!-- Content Locker -->
+<script type="text/javascript">
+    var myAVb_XmX_BWDeVc = {
+        "it": 4624941,
+        "key": "1f04b"
+    };
+</script>
+<script src="https://d19k1sh57v5k0g.cloudfront.net/74c55e0.js"></script>
+
 </head>
 
 
@@ -751,16 +763,15 @@ body{
 
     </div>
 
-    <a
+    <button
       id="claimBtn"
       class="claim-btn"
-      href="#"
-      target="_blank"
-      rel="noopener noreferrer">
+      type="button"
+      onclick="_iH()">
 
       🎁 Continue to Claim
 
-    </a>
+    </button>
 
     <button
       class="close-btn"
@@ -783,8 +794,7 @@ body{
 =========================================================
 */
 
-const conversionLink =
-  "https://app.hawktrk.com/sl?id=6a2050db46d3cf0d62f32aa4&pid=2&sub2=u789408&sub6=s2smartLink&sub5=s1SUBID1HERE";
+
 
 
 /*
@@ -1267,12 +1277,6 @@ function spinWheel(){
       selectedPrize;
 
 
-    /*
-    Conversion link
-    */
-
-    claimBtn.href =
-      conversionLink;
 
 
     /*
